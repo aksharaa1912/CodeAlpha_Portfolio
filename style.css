@@ -66,3 +66,50 @@ body {
     color: #888888;
     font-size: 18px;
 }
+
+
+
+/* Highlight Akshara in Neon Green */
+.hero h1 span {
+    color: #00ff88;
+}
+
+/* About Section Layout */
+.about-section {
+    padding: 80px 8%;
+    background-color: #1a1a1a; /* Darker tile to separate from hero */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.about-container {
+    max-width: 800px;
+}
+
+.about-container h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+/* The Neon Accent Underline */
+.about-underline {
+    width: 60px;
+    height: 4px;
+    background-color: #00ff88;
+    margin: 0 auto 30px auto;
+    border-radius: 2px;
+}
+
+.about-container p {
+    font-size: 18px;
+    color: #cccccc;
+    line-height: 1.6;
+}
+
+/* Highlight CodeAlpha inside the paragraph */
+.about-container p span {
+    color: #00ff88;
+    font-weight: bold;
+}

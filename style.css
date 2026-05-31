@@ -113,3 +113,76 @@ body {
     color: #00ff88;
     font-weight: bold;
 }
+/* --- DAY 3 STYLES --- */
+
+/* Projects Section Base */
+.projects-section {
+    padding: 80px 8%;
+    background-color: #121212; 
+    text-align: center;
+}
+
+.projects-container h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.projects-underline {
+    width: 60px;
+    height: 4px;
+    background-color: #00ff88;
+    margin: 0 auto 40px auto;
+    border-radius: 2px;
+}
+
+/* Responsive Grid Layout */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* Interactive Project Cards */
+.project-card {
+    background-color: #1a1a1a;
+    border: 1px solid #2a2a2a;
+    border-radius: 10px;
+    padding: 25px;
+    text-align: left;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+/* Floating effect on hover */
+.project-card:hover {
+    transform: translateY(-8px);
+    border-color: #00ff88;
+}
+
+.project-card h3 {
+    font-size: 22px;
+    color: #ffffff;
+    margin-bottom: 12px;
+}
+
+.project-card p {
+    font-size: 15px;
+    color: #aaaaaa;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+/* Modern Pill Tags for Skills */
+.tech-tag {
+    display: inline-block;
+    background-color: rgba(0, 255, 136, 0.1);
+    color: #00ff88;
+    padding: 5px 12px;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 20px;
+    margin-right: 8px;
+    margin-bottom: 5px;
+}

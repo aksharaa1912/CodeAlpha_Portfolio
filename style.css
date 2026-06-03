@@ -186,3 +186,65 @@ body {
     margin-right: 8px;
     margin-bottom: 5px;
 }
+
+/* --- DAY 4 STYLES --- */
+
+/* Skills Section Base */
+.skills-section {
+    padding: 80px 8%;
+    background-color: #1a1a1a; /* Alternating dark tile to separate sections */
+    text-align: center;
+}
+
+.skills-container h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.skills-underline {
+    width: 60px;
+    height: 4px;
+    background-color: #00ff88;
+    margin: 0 auto 40px auto;
+    border-radius: 2px;
+}
+
+/* Skills Grid Wrap */
+.skills-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Glowing Badges */
+.skill-badge {
+    background-color: #121212;
+    border: 1px solid #2a2a2a;
+    color: #ffffff;
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between icon and text */
+    cursor: default;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Hover Glow Effect */
+.skill-badge:hover {
+    color: #00ff88;
+    border-color: #00ff88;
+    transform: translateY(-5px);
+    box-shadow: 0 0 15px rgba(0, 255, 136, 0.3);
+}
+
+.skill-badge i {
+    font-size: 20px; /* Makes the icons look sharp */
+}

@@ -248,3 +248,139 @@ body {
 .skill-badge i {
     font-size: 20px; /* Makes the icons look sharp */
 }
+/* --- COMBINED DAY 5 & 6 STYLES --- */
+
+/* Smooth Viewport Scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Contact Section Base */
+.contact-section {
+    padding: 80px 8%;
+    background-color: #121212; 
+    text-align: center;
+}
+
+.contact-container h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.contact-underline {
+    width: 60px;
+    height: 4px;
+    background-color: #00ff88;
+    margin: 0 auto 20px auto;
+    border-radius: 2px;
+}
+
+.contact-subtitle {
+    color: #888888;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+/* Responsive Grid Wrap */
+.contact-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 40px;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+/* Form Layout */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form input, 
+.contact-form textarea {
+    background-color: #1a1a1a;
+    border: 1px solid #2a2a2a;
+    color: #ffffff;
+    padding: 15px;
+    font-size: 15px;
+    border-radius: 8px;
+    outline: none;
+    font-family: inherit;
+    transition: border-color 0.3s ease;
+}
+
+.contact-form input:focus, 
+.contact-form textarea:focus {
+    border-color: #00ff88;
+}
+
+/* Glow Accent Button */
+.submit-btn {
+    background-color: #00ff88;
+    color: #121212;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.submit-btn:hover {
+    transform: translateY(-2px);
+    opacity: 0.9;
+}
+
+/* Social Cards Box */
+.social-connect h3 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.social-card {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-color: #1a1a1a;
+    border: 1px solid #2a2a2a;
+    color: #ffffff;
+    padding: 15px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.social-card:hover {
+    border-color: #00ff88;
+    color: #00ff88;
+    transform: translateX(5px);
+}
+
+.social-card i {
+    font-size: 22px;
+}
+
+/* Footer Element CSS */
+.main-footer {
+    background-color: #1a1a1a;
+    padding: 30px 8%;
+    text-align: center;
+    border-top: 1px solid #2a2a2a;
+}
+
+.main-footer p {
+    font-size: 14px;
+    color: #666666;
+}

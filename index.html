@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My CodeAlpha Portfolio</title>
     <!-- Font Awesome Link for Skills Icons -->
-    <link rel="stylesheet" href="https://">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
     <!-- Main Project Stylesheet -->
     <link rel="stylesheet" href="style.css">
 </head>
@@ -97,8 +98,49 @@
             </div>
         </div>
     </section>
+        </section>
+
+    <!-- 🌟 COMBINED DAY 5 & 6: Contact & Footer Section -->
+    <section id="contact" class="contact-section">
+        <div class="contact-container">
+            <h2>Contact Me</h2>
+            <div class="contact-underline"></div>
+            <p class="contact-subtitle">Have an opportunity or want to collaborate? Drop a message!</p>
+            
+            <div class="contact-wrapper">
+                <!-- Interactive Form -->
+                <form class="contact-form" onsubmit="event.preventDefault(); alert('Message sent successfully! 🚀');">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+
+                <!-- Social Connect Buttons -->
+                <div class="social-connect">
+                    <h3>Connect Online</h3>
+                    <div class="social-links">
+                        <a href="https://linkedin.com" target="_blank" class="social-card">
+                            <i class="fab fa-linkedin"></i> LinkedIn
+                        </a>
+                        <a href="https://github.com" target="_blank" class="social-card">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Component -->
+    <footer class="main-footer">
+        <p>&copy; 2026 Akshara. Designed & Engineered with ❤️ for CodeAlpha.</p>
+    </footer>
 
     <!-- Project Logic Script -->
     <script src="script.js"></script>
 </body>
 </html>
+
+
+ 

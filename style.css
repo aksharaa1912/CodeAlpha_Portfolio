@@ -447,3 +447,61 @@ html {
     font-size: 14px;
     color: #666666;
 }
+/* --- DAY 6: CSE PROFILE LAYOUT EXPANSIONS --- */
+
+.about-layout {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.about-bio p {
+    font-size: 18px;
+    color: #cccccc;
+    line-height: 1.7;
+}
+
+.about-bio p span {
+    color: #00ff88;
+    font-weight: 600;
+}
+
+/* Info Sub-Cards */
+.about-details-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.detail-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #121212; /* Inverted card tile layout contrast */
+    border: 1px solid #2a2a2a;
+    padding: 20px;
+    border-radius: 10px;
+    transition: border-color 0.3s ease;
+}
+
+.detail-item:hover {
+    border-color: #00ff88;
+}
+
+.detail-item i {
+    font-size: 26px;
+    color: #00ff88;
+}
+
+.detail-item h4 {
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 4px;
+}
+
+.detail-item p {
+    font-size: 14px;
+    color: #aaaaaa;
+}

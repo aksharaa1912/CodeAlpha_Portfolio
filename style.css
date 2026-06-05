@@ -48,25 +48,88 @@ body {
 }
 
 /* Hero Section Styling */
+/* --- HERO UPGRADES --- */
 .hero {
-    height: 70vh;
+    height: 90vh; /* Taller viewport presence */
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding: 0 8%;
+}
+
+.hero-content {
+    max-width: 800px;
 }
 
 .hero h1 {
-    font-size: 45px;
-    margin-bottom: 10px;
+    font-size: 55px;
+    margin-bottom: 5px;
+    letter-spacing: -1px;
 }
 
-.hero p {
-    color: #888888;
-    font-size: 18px;
+.hero h2 {
+    font-size: 28px;
+    color: #e0e0e0;
+
+    font-weight: 500;
+    margin-bottom: 20px;
 }
 
+.hero-subtext {
+    color: #aaaaaa !important;
+    font-size: 18px !important;
+    line-height: 1.6;
+    margin-bottom: 35px;
+}
+
+/* Call to Action Interactive Buttons */
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btn {
+    padding: 14px 30px;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+}
+
+.primary-btn {
+    background-color: #00ff88;
+    color: #121212;
+    border: 2px solid #00ff88;
+}
+
+.primary-btn:hover {
+    background-color: transparent;
+    color: #00ff88;
+    transform: translateY(-3px);
+    box-shadow: 0 0 15px rgba(0, 255, 136, 0.4);
+}
+
+.secondary-btn {
+    background-color: transparent;
+    color: #ffffff;
+    border: 2px solid #2a2a2a;
+}
+
+.secondary-btn:hover {
+    border-color: #00ff88;
+    color: #00ff88;
+    transform: translateY(-3px);
+}
+
+/* Active Navigation State Link Indicator */
+.nav-links a.active {
+    color: #00ff88;
+    border-bottom: 2px solid #00ff88;
+    padding-bottom: 5px;
+}
 
 
 /* Highlight Akshara in Neon Green */
